@@ -1,4 +1,4 @@
-export const SITE = "https://portfolio-pnya.vercel.app";
+export const SITE = "https://aesthetic-cajeta-4604e4.netlify.app";
 export const LINKS = { linkedin: "https://www.linkedin.com/in/rukesh-pulugu-123rp", email: "rukeshpulugu20@gmail.com", github: "https://github.com/rukeshpulugu", resume: "/Rukesh_Pulugu_Resume.pdf" };
 const gh = (r: string) => `https://github.com/rukeshpulugu/${r}`;
 
