@@ -1,0 +1,10 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+:root{--bg:248 250 252;--card:255 255 255;--fg:15 23 42;--mute:100 116 139;--line:226 232 240;--accent:13 148 136;--accent2:79 70 229}
+.dark{--bg:7 11 20;--card:15 23 42;--fg:241 245 249;--mute:148 163 184;--line:30 41 59;--accent:45 212 191;--accent2:129 140 248}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{background:rgb(var(--bg));color:rgb(var(--fg))}
+:focus-visible{outline:2px solid rgb(var(--accent));outline-offset:3px;border-radius:8px}
+.grid-bg{background-image:linear-gradient(rgb(var(--line)/.5) 1px,transparent 1px),linear-gradient(90deg,rgb(var(--line)/.5) 1px,transparent 1px);background-size:56px 56px;mask-image:radial-gradient(ellipse at 50% 30%,#000 20%,transparent 70%)}
+@keyframes drift{0%,100%{transform:translate3d(0,0,0)}50%{transform:translate3d(30px,-24px,0)}}
+.orb{animation:drift 14s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.orb{animation:none}*{transition-duration:.01ms!important}}
