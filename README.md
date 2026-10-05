@@ -18,4 +18,4 @@ npm run build    # production build check
 
 ## Editing content
 All text/links live in `lib/data.ts`. Replace `public/Rukesh_Pulugu_Resume.pdf` and `public/rukesh.jpeg` to update the resume or photo.
-If your Vercel URL differs from `https://portfolio-pnya.vercel.app`, change `SITE` in `lib/data.ts`.
+If your site URL differs from `https://aesthetic-cajeta-4604e4.netlify.app`, change `SITE` in `lib/data.ts`.
